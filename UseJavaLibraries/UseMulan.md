@@ -10,4 +10,4 @@ Run the snippet using the following syntax: `scala -cp "weka.jar;mulan.jar" UseM
 
 The following image shows the output produced by the snippet working with the `emotions` dataset:
 
-![Output from the script](UseMulanoutput.png).
+![Output from the script](UseMULANoutput.png).
