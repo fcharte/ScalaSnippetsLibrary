@@ -7,4 +7,7 @@ List of **folders** and `files` with examples:
 
 + **UseJavaLibraries**: How to use some Java Libraries from Scala
     * `UseMULAN.scala`: Example on how to access the MULAN Java Library to work with multilabel datasets
+    
++ **Iterators**: How to iterate through arrays and collections
+    * `IterateArray.scala`: Simple example on how to iterate the items in an array
   
