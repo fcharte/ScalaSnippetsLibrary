@@ -7,6 +7,10 @@ println("\nScala arrays use 0-based indexes")
 for (i <- 0 to years.length-1)
   println(years(i))
 
+println("\nUntil instead of to to avoid -1")
+for (i <- 0 until years.length)
+  println(years(i))
+
 println("\nNo need to use indexes")
 for(item <- years) println(item)
 
