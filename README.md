@@ -7,6 +7,7 @@ List of **folders** and `files` with examples:
 
 + **DataTypes**: How to declare and use variables of different data types
     * `Arrays.scala`: This script shows how to declare and use array variables
+    * `NumericDataTypes.scala`: This script shows how to declare and use different numeric data types
 
 + **Iterators**: How to iterate through arrays and collections
     * `ForLoops.scala`: Script that shows different uses of the `for` loop
