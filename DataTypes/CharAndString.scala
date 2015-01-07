@@ -12,13 +12,12 @@ val letter2 = 97.toChar
 println("\nCode 97 is letter " + letter2)
 
 println("\nTest type of character")
-letter.isControl
-letter.isDigit
-letter.isLetter
-letter.isLetterOrDigit
-letter.isLower
-letter.isUpper
-letter.isSpaceChar
+println(letter + " isDigit = " + letter.isControl)
+println(letter + " isLetter = " + letter.isLetter)
+println(letter + " isLetterOrDigit = " + letter.isLetterOrDigit)
+println(letter + " isLower = " + letter.isLower)
+println(letter + " isUpper = " + letter.isUpper)
+println(letter + " isSpaceChar = " + letter.isSpaceChar)
 
 println("\nCharacter conversion")
 letter.toLower
@@ -26,6 +25,7 @@ letter2.toUpper
 
 println("\nUnicode characters")
 val euro = 8364.toChar
+val filleddot = 0x2022.toChar
 
 println("\nCharacters in a string")
 for (c <- "A string") println("'" + c + "' " + c.toInt)
