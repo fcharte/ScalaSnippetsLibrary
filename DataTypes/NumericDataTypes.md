@@ -30,7 +30,8 @@ As usual in Scala, the type of a variable can be explicitly stated or it can be 
 
 Scala is a strongly typed language. As a consequence, certain assignments, such as assigning an `Int` value to a `Byte` variable, are not allowed and generate the corresponding error.
 
-    
+Scala integer literals can be given as hexadecimal numbers, following the syntax `0xABCD`. To use other numbering systems, such as binary, the `parseInt()` method (see source file) can be used. Numbers can be converted to hexadecimal and binary strings using the `toHexString` and `toBinaryString` of the integer data types.
+
 How to use the snippet
 ----------------------
 
