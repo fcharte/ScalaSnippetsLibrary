@@ -59,3 +59,11 @@ val intCircum = circumference.toInt // Loss of data
 
 println("\nAlternative syntax for explicit conversions")
 val floatCircum = circumference.asInstanceOf[Float]
+
+println("\nWorking with non-decimal numbering\n----------------------------------")
+println("\nHexadecimal and binary numbers")
+val hexValue = 0xB800
+val binValue = Integer.parseInt("1100101", 2)
+
+println(hexValue.toHexString)
+println(hexValue.toBinaryString)
