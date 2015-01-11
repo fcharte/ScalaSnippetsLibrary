@@ -28,4 +28,4 @@ val euro = 8364.toChar
 val filleddot = 0x2022.toChar
 
 println("\nCharacters in a string")
-for (c <- "A string") println("'" + c + "' " + c.toInt)
+for (c <- "A \u2022 string") println("'" + c + "' " + c.toInt)
