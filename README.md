@@ -6,7 +6,7 @@ A library of code snippets written in Scala language
 List of **folders** and `files` with examples:
 
 + **DataTypes**: How to declare and use variables of different data types
-    * `Arrays.scala`: This script shows how to declare and use array variables
+    * [`Arrays.scala`](DataTypes/Arrays.md): This script shows how to declare and use array variables
     * `CharAndString.scala`: This script shows how to use the Char and String data types
     * `NumericDataTypes.scala`: This script shows how to declare and use different numeric data types
 
