@@ -9,6 +9,7 @@ List of **folders** and `files` with examples (**click any file to see a descrip
     * [`Arrays.scala`](DataTypes/Arrays.md): This script shows how to declare and use array variables
     * [`CharAndString.scala`](DataTypes/CharAndString.md): This script shows how to use the Char and String data types
     * [`NumericDataTypes.scala`](DataTypes/NumericDataTypes.md): This script shows how to declare and use different numeric data types
+    * [`OtherSimpleDataTypes.scala`](DataTypes/OtherSimpleDataTypes.md): This script shows how to use other simple data types, such as `Boolean`, `Any`, `AnyVal`, `AnyRef` and `Symbol`
     * [`Strings.scala`](DataTypes/Strings.md): This script shows how to work with String literals and String variables.
 
 + **Iterators**: How to iterate through arrays and collections
