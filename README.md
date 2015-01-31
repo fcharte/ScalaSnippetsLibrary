@@ -11,6 +11,7 @@ List of **folders** and `files` with examples (**click any file to see a descrip
     * [`NumericDataTypes.scala`](DataTypes/NumericDataTypes.md): This script shows how to declare and use different numeric data types
     * [`OtherSimpleDataTypes.scala`](DataTypes/OtherSimpleDataTypes.md): This script shows how to use other simple data types, such as `Boolean`, `Any`, `AnyVal`, `AnyRef` and `Symbol`
     * [`Strings.scala`](DataTypes/Strings.md): This script shows how to work with String literals and String variables.
+    * [`Variables.scala`](DataTypes/Variables.md): This script shows how to declare and initialize variables in Scala.
 
 + **Iterators**: How to iterate through arrays and collections
     * [`ForLoops.scala`](Iterators/ForLoops.md): Script that shows different uses of the `for` loop
