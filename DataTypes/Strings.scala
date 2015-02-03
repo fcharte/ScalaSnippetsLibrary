@@ -1,10 +1,9 @@
 println("\nDifferent kind of strings\n")
 val basicString = "This is a basic character string"
 val scapeCharacters = "\tString with \"escape\" characters\n"
-val multilineString = """
-  This is a string
-  with multiple lines
-  of text"""
+val multilineString = """This is a string
+  |with multiple lines
+  |of text""".stripMargin
 
 println("\nString interpolation\n")
 val name = "Francisco"
