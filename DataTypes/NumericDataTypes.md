@@ -26,7 +26,7 @@ Unlike most programming languages, Scala treat numeric data types as objects. So
 * `isInstanceOf[type]`: Checks if the value is of the specified type
 * `asInstanceOf[type]`: Explicit conversion method
     
-As usual in Scala, the type of a variable can be explicitly stated or it can be inferred from the literal value being assigned. Type of numeric literals can be indicated by a suffix such as `l`, for `Long` integer, or `f`, for `Float` floating point values.
+As usual in Scala, the type of a variable can be explicitly stated or it can be inferred from the literal value being assigned. Type of numeric literals can be indicated by a suffix such as `l`/`L`, for `Long` integer, `d`/`D` for `Double` floating point values,  or `f`, for `Float` floating point values.
 
 Scala is a strongly typed language. As a consequence, certain assignments, such as assigning an `Int` value to a `Byte` variable, are not allowed and generate the corresponding error.
 
