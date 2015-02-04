@@ -12,6 +12,8 @@ It is possible to include variable values in a string literal by means of string
 
 Besides Java `String` methods, such as `toUpperCase`, `startsWith`, `substring`, `split`, etc., Scala strings (thanks to the `StringOps` class) also support some operators and additional methods.
 
+Also in this snippet, it is shown how a variable can contain XML data. The type of these variable is not `String` but it can be easily converted to `String` using their `text` method.
+
 How to use the snippet
 ----------------------
 
