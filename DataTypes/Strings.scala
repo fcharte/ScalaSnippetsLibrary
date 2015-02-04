@@ -23,3 +23,12 @@ println("\nStringOps operators\n")
 println("Repeating a string: " + name * 3)
 println("Sequence of operations: " + ("Hello " /: (1 to 4))(_ * _))
 println("Combinations: " + name.combinations(8).toList)
+
+println("\nXML nodes and strings\n")
+val nodoXML = <computer>
+               <name>Sinclair ZX-Spectrum</name>
+               <memory>48 KB</memory>
+               <year>1982</year>
+              </computer>
+
+nodoXML.text
