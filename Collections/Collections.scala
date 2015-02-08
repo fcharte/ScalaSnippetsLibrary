@@ -22,9 +22,13 @@ val aStack = Stack("third", "second", "first")
 println("A map is an associative array")
 val aMap = Map("first" -> 1, "second" -> 2, "third" -> 3)
 
-println("The same operation applied to all collections")
+println("\nAll collections implement the Traversable and Iterable trait\n")
+println("\nThus the same operation can be applied to all collections")
 aList map println
 aVector map println
 aQueue map println
 aStack map println
 aMap map println
+
+aVector.toList
+aStack.toArray
