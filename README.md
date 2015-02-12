@@ -5,6 +5,9 @@ A library of code snippets written in Scala language
 
 List of **folders** and `files` with examples (**click any file to see a description**):
 
++ **Collections**: How to work with Scala collections
+    * [`Collections.scala`](Collections/Collections.md): This script shows how to create basic types of collections
+
 + **DataTypes**: How to declare and use variables of different data types
     * [`Arrays.scala`](DataTypes/Arrays.md): This script shows how to declare and use array variables
     * [`CharAndString.scala`](DataTypes/CharAndString.md): This script shows how to use the Char and String data types
