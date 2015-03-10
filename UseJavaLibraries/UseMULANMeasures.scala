@@ -12,15 +12,15 @@ val t = Array(true, false, true, false)
 
 // And update de bipartition
 HL.updateBipartition(p, t)
-HL.getValue
+println("Hamming Loss: " + HL.getValue)
 
 // The values area accumulated. To start a fresh metric call reset
 HL.reset
 
 HL.updateBipartition(t, t)
-HL.getValue
+println("Hamming Loss: " + HL.getValue)
 HL.updateBipartition(p, t)
-HL.getValue
+println("Hamming Loss: " + HL.getValue)
 
 // Some other example based metrics
 val Acc = new ExampleBasedAccuracy(true)
@@ -37,11 +37,12 @@ Fm.update(new MultiLabelOutput(t), p)
 SA.update(new MultiLabelOutput(t), p)
 HL.update(new MultiLabelOutput(t), p)
 
-Acc.getValue
-Prec.getValue
-Rec.getValue
-Fm.getValue
-SA.getValue
+println("\nSample-based bipartition-based metrics\n")
+println("Accuracy: " + Acc.getValue)
+println("Precision: " + Prec.getValue)
+println("Recall: " + Rec.getValue)
+println("F-measure: " + Fm.getValue)
+println("Subset Accuracy: " + SA.getValue)
 
 // Ranking based measures
 val OE = new OneError
@@ -55,10 +56,11 @@ CO.update(new MultiLabelOutput(Array(1, 2)),  Array(true, false))
 RL.update(new MultiLabelOutput(Array(1, 2)),  Array(true, false))
 AP.update(new MultiLabelOutput(Array(1, 2)),  Array(true, false))
 
-OE.getValue
-CO.getValue
-RL.getValue
-AP.getValue
+println("\nSample-based ranking-based metrics\n")
+println("One error: " + OE.getValue)
+println("Coverage: " + CO.getValue)
+println("Ranking loss: " + RL.getValue)
+println("Average precision: " + AP.getValue)
 
 // Macro-averaged measures
 val MP = new MacroPrecision(2, true)
@@ -72,6 +74,10 @@ MR.update(new MultiLabelOutput(Array(true, true)), Array(true, true))
 MaF.update(new MultiLabelOutput(Array(true, true)), Array(false, true))
 MaF.update(new MultiLabelOutput(Array(true, true)), Array(true, true))
 
+println("\nLabel-based metrics\n")
+println("Macro precision: " + MP.getValue)
+println("Macro recall: " + MR.getValue)
+println("Macro F-measure: " + MaF.getValue)
 MP.getValue
 MR.getValue
 MaF.getValue
