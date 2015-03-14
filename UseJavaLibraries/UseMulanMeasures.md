@@ -1,4 +1,4 @@
-How to use MULAN measures classess
+How to use MULAN measures classes
 ==============================
 [MULAN](http://mulan.sourceforge.net/) is a Java library for machine learning with multilabel datasets. This snippet shows how to use the MULAN classess aimed to evaluate classification performance. The [UseMulan.scala](https://github.com/fcharte/ScalaSnippetsLibrary/blob/master/UseJavaLibraries/UseMULAN.scala) snippet shows how to work with MULAN.
 
