@@ -22,5 +22,6 @@ List of **folders** and `files` with examples (**click any file to see a descrip
 
 + **UseJavaLibraries**: How to use some Java Libraries from Scala
     * [`UseMULAN.scala`](UseJavaLibraries/UseMulan.md): Example on how to access the MULAN Java Library to work with multilabel datasets
+    * [`UseMULANMeasures.scala`](UseJavaLibraries/UseMulanMeasures.md): This script shows how to use the metrics for multilabel classification assessing on the MULAN library
     
   
